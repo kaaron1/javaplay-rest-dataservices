@@ -1,6 +1,5 @@
 package com.ibm.javaplay.sqldb.controller;
 
-import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
@@ -40,7 +39,7 @@ public class SqldbController
     (
     		@QueryParam("id") Integer id,
     		@QueryParam("name") String name
-    ) throws SQLException
+    )
     {
 		return sqldbService.update(id, name);
 
@@ -51,7 +50,7 @@ public class SqldbController
     public String delete
     (
     		@QueryParam("id") Integer id
-    ) throws SQLException
+    )
     {
 		return sqldbService.delete(id);
 
@@ -63,7 +62,7 @@ public class SqldbController
     public List<Map<String, Object>> select
     (
     		@QueryParam(value = "id") Integer id
-    ) throws SQLException
+    )
     {
 		return sqldbService.select(id);
 
