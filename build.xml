@@ -13,6 +13,7 @@
     <path id="classpathDir">
         <pathelement location="bin"/>
         <pathelement location="dep-jar/com.ibm.ws.javaee.jaxrs.1.1_1.0.1.jar"/>
+    	 <pathelement location="WebContent/WEB-INF/lib/cf-java-app-tracker-client-0.1.0.jar"/>
     </path>
     <target name="init">
         <mkdir dir="bin"/>

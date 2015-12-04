@@ -4,8 +4,8 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: ecod-restclient-katest3
-  host: ecod-restclient-katest3
+  name: ecod-restclient
+  host: ecod-restclient
   disk_quota: 1024M
   services:
   - SQL Database-c0
