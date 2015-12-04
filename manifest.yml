@@ -1,4 +1,8 @@
 ---
+
+declared-services:
+  sample-javaplays-SQLDB
+  label: sqldb
 applications:
 - path: JavaHelloWorldApp.war
   memory: 512M
@@ -8,4 +12,5 @@ applications:
   host: ecod-restclient
   disk_quota: 1024M
   services:
-  - SQL Database
+  - sample-javaplays-SQLDB
+  
