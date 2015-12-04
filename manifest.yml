@@ -12,5 +12,5 @@ applications:
   host: ecod-restclient
   disk_quota: 1024M
   services:
-  - sample-javaplays-SQLDB
+    - sample-javaplays-SQLDB
   
