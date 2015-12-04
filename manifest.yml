@@ -1,8 +1,8 @@
 ---
 
 declared-services:
-  sample-javaplays-SQLDB
-  label: sqldb
+  sample-javaplays-SQLDB:
+    label: sqldb
 applications:
 - path: JavaHelloWorldApp.war
   memory: 512M
