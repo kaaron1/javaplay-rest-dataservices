@@ -26,10 +26,7 @@ The Java Hello World Web Starter application contains the following contents:
 
 	This directory contains libraries that are needed to compile locally, but are provided by Bluemix and not included in the WAR file. 
 	
-	<h1>An alternative for deployment</h1>
-	Badge: 
-	![Bluemix Deployments](https://deployment-tracker.mybluemix.net/stats/74729048258053b317ecd0a4a13ab12e/badge.svg)
-	
+	<h1>An alternative for deployment</h1>	
 	[![Deploy to Bluemix](https://deployment-tracker.mybluemix.net/stats/74729048258053b317ecd0a4a13ab12e/button.svg)](https://bluemix.net/deploy?repository=https://github.com/kaaron1/javaplay-rest-dataservices.git)
 	
 	
