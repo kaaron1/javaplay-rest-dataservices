@@ -1,16 +1,17 @@
 ---
 
 declared-services:
-  sample-javaplays-SQLDB:
+  sample-javaplays-restclient-SQLDB:
     label: sqldb
+    plan: sqldb_free
 applications:
-- path: JavaHelloWorldApp.war
+- name: ecod-restclient
+  host: ecod-restclient
+  path: JavaHelloWorldApp.war
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: ecod-restclient
-  host: ecod-restclient
   disk_quota: 1024M
   services:
-    - sample-javaplays-SQLDB
-  
+   - sample-javaplays-restclient-SQLDB
+   
